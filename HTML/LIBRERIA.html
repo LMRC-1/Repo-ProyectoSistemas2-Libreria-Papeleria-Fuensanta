@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Inventario y Ventas</title>
+    <link rel="stylesheet" href="CSS_LIBRERIA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>📊 Dashboard de Inventario y Ventas</h1>
+        <h1>Libreria-Papeleria Fuensanta</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">🏠 Inicio</a></li>
+            <li><a href="#">📦 Inventario</a></li>
+            <li><a href="#">📜 Historial de Ventas</a></li>
+            <li><a href="#">📈 Reportes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="resumen">
+            <h2>📌 Resumen de Ventas</h2>
+            <div class="stats">
+                <div class="card">
+                    <h3>Total Ingresos</h3>
+                    <p id="total-ingresos">$0.00</p>
+                </div>
+                <div class="card">
+                    <h3>Ganancias/Pérdidas</h3>
+                    <p id="ganancias-perdidas">$0.00</p>
+                </div>
+            </div>
+        </section>
+        <section class="historial">
+            <h2>📑 Historial de Ventas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025-01-18</td>
+                        <td>Producto</td>
+                        <td>2</td>
+                        <td>10.00bs</td>
+                        <td>20.00bs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
